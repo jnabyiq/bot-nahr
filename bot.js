@@ -20,7 +20,7 @@ person.send(` **
       مضي 3 سنوات أُفتتح سيرفر point
 الاختلاف ، التجديد ، حياك معنا بتكون
 اضافة جديدة وحلوه لسيرفرنا حياك  ** 
-https://discord.gg/bZFNsss `)
+https://discord.gg/xTRSaHM `)
 console.log(`i've send to ${person.username} in server ${guild.name}`)
 }, 180000)
 })

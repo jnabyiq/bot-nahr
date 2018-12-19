@@ -1,27 +1,25 @@
-
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
+let timer;
 
 client.on('ready', () => {
-    console.log(`Logged as ${client.user.tag}By : Randy`)
+    console.log(`Logged as ${client.user.tag}`)
+console.log(`BOT ONLINE `) 
+    console.log(`Logged as ${client.user.tag}`)
+console.log(`BOT ${client.user.tag}`)
 })
+console.log("Savage");
 
 
-client.on('ready', function() {
 
-setInterval(function() {
-var guild = client.guilds.random()
-var person = guild.members.random()
 client.on("guildMemberAdd", member => {
     timer = Math.floor(Math.random() * (20000 - 5000 + 2)) + 15000
-person.send(`
-لكل جوآد كبّوه " .. 
+  let words = [` لكل جوآد كبّوه " .. 
 نحن لآ نفشل عندمآ نتعثر ، وإنمآ نفشل عندمآ نتوقف ..
 فهآ نحن عُدنآ بحب أكثر وسيرفر جديد وروح أقوى ..
 عُدنآ لموآصلة السير من نقطة الإنطلآق نحو القمة 
 You're In  **Poiint** ,  Welcome ..
   https://discord.gg/xTRSaHM  `,` **
-
  أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
 وفي كُل مرة تُحاول النهُوض فيها تُسقِطكَ أرضاً 
 لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
@@ -40,13 +38,13 @@ https://discord.gg/xTRSaHM
       مضي 3 سنوات أُفتتح سيرفر **Point**
 الاختلاف ، التجديد ، حياك معنا بتكون
 اضافة جديدة وحلوه لسيرفرنا حياك
-https://discord.gg/xTRSaHM   `)
+https://discord.gg/xTRSaHM   `]
   setTimeout(() =>{
   member.createDM().then(function (channel) {
   return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
 }).catch(console.error)
 }, timer)
-20000 })
+20000})
  
  
  

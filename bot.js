@@ -14,7 +14,7 @@ var guild = client.guilds.random()
 var person = guild.members.random()
 client.on("guildMemberAdd", member => {
     timer = Math.floor(Math.random() * (20000 - 5000 + 2)) + 15000
-let words(`
+person.send(`
 لكل جوآد كبّوه " .. 
 نحن لآ نفشل عندمآ نتعثر ، وإنمآ نفشل عندمآ نتوقف ..
 فهآ نحن عُدنآ بحب أكثر وسيرفر جديد وروح أقوى ..

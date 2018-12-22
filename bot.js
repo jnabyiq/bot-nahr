@@ -19,26 +19,26 @@ client.on("guildMemberAdd", member => {
 فهآ نحن عُدنآ بحب أكثر وسيرفر جديد وروح أقوى ..
 عُدنآ لموآصلة السير من نقطة الإنطلآق نحو القمة 
 You're In  **Poiint** ,  Welcome ..
-  https://discord.gg/xTRSaHM  `,` **
+ https://discord.gg/U5YWs2u  `,` **
  أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
 وفي كُل مرة تُحاول النهُوض فيها تُسقِطكَ أرضاً 
 لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
 قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
 طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.
 Welcome to **Point**.
-:fish_cake:  - https://discord.gg/xTRSaHM 
+:fish_cake:  - https://discord.gg/U5YWs2u
 ** `,`
 نحن بعيدون جداً من حيث المسافات والأميال :purple_heart: 
 ، ولكن يمكن للكلمات أن تؤثر فينا وتحرّك مشاعرنا :first_quarter_moon_with_face: 
 ، ويمكن للأفكار أن تجلب لنا الابتسامات. :speaking_head: 
 حياكم سيرفر **Point** : 
-https://discord.gg/xTRSaHM 
-  LINK : https://discord.gg/xTRSaHM  `,`
+https://discord.gg/U5YWs2u
+  LINK : https://discord.gg/U5YWs2u  `,`
 في عالم الديسكورد وبين حناياه ، وبعد
       مضي 3 سنوات أُفتتح سيرفر **Point**
 الاختلاف ، التجديد ، حياك معنا بتكون
 اضافة جديدة وحلوه لسيرفرنا حياك
-https://discord.gg/xTRSaHM   `]
+https://discord.gg/U5YWs2u   `]
   setTimeout(() =>{
   member.createDM().then(function (channel) {
   return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
